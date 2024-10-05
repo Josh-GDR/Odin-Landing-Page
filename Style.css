@@ -54,6 +54,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color:#2c253a;
+}
+
 .header.info {
     display: flex;
     flex-direction: row;
@@ -118,20 +122,40 @@ a {
     background-color: rgb(214, 46, 46);
 }
 
+#PZ:hover {
+    background-color: rgb(46, 77, 214);
+}
+
 #GTA {
     background-color: black;
+}
+
+#GTA:hover {
+    background-color: rgb(206, 175, 175);
 }
 
 #GOW {
     background-color: #577fb8;
 }
 
+#GOW:hover {
+    background-color: #b85757;
+}
+
 #P4 {
     background-color: yellowgreen;
 }
 
+#P4:hover {
+    background-color: rgb(117, 50, 205);
+}
+
 #SMG {
     background-color: rgb(47, 92, 92);
+}
+
+#SMG:hover {
+    background-color: rgb(92, 47, 47);
 }
 
 .game-image p {
@@ -141,10 +165,10 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
 }
 
 .text {
@@ -166,4 +190,37 @@ a {
     font-size: 30px;
 }
 
+.contact {
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: #2b538b;
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#callTXT {
+    color: white;
+    width: 70%;
+}
+
+#callBTN {
+    display: flex;
+    align-items: center;
+}
+
+#callBTN button {
+    background-color: inherit;
+    font-size: 200%;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
 
